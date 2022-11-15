@@ -3,7 +3,7 @@
 ## :clipboard: User Stories
 
 ```
-First commit.
+First commit
 ```
 
 ## :memo: Getting started
@@ -14,8 +14,9 @@ First commit.
 
 ## :construction: Technologies I used
 
-- JavaScript.
+- JavaScript
 
 ## :scroll: License
+- MIT
 
 [Edit on StackBlitz ⚡️](https://stackblitz.com/edit/js-bstvha)
