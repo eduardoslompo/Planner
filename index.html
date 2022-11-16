@@ -25,15 +25,12 @@
       var x = document.getElementById("areatexto").value;
       document.getElementById("texto").innerHTML = x;
       //Remover a textarea do DOM
-      const b = document.getElementById('areatexto');
+      const b = document.getElementById("areatexto");
       b.parentNode.removeChild(b);
     }
     
-    const a = document.getElementById('botao');
-    
-    
-    
-    
+    const a = document.getElementById("botao");
+
     a.addEventListener('click', funcaoTexto());
     </script>
 </head>
