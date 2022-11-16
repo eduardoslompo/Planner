@@ -9,7 +9,7 @@
   <title>Seu Planner</title>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/html2canvas/1.3.4/html2canvas.min.js"></script>
   <script>
-    function capture () {
+    function capture() {
       let div = document.getElementById('conteudo');
 
       html2canvas(div).then((canvas) => {
@@ -21,11 +21,18 @@
     }
     
     function funcaoTexto() {
+      //Substituir a textarea por uma variavel com o seu conteúdo
       var x = document.getElementById("areatexto").value;
       document.getElementById("texto").innerHTML = x;
+      //Remover a textarea do DOM
+      const b = document.getElementById('areatexto');
+      b.parentNode.removeChild(b);
     }
     
     const a = document.getElementById('botao');
+    
+    
+    
     
     a.addEventListener('click', funcaoTexto());
     </script>
