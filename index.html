@@ -24,6 +24,8 @@
       //Substituir a textarea por uma variavel com o seu conteúdo
       var x = document.getElementById("areatexto").value;
       document.getElementById("texto").innerHTML = x;
+      //Trocar background do texto
+      document.getElementById('texto').id = 'texto2';
       //Remover a textarea do DOM
       const b = document.getElementById("areatexto");
       b.parentNode.removeChild(b);
@@ -91,6 +93,20 @@
         tenetur modi soluta?
       </div>
     </div>
+
+    <div class="container">
+      <div class="card">
+        <h3>Segunda</h3>
+        <textarea id="areatexto" rows="4" cols="25">
+            At w3schools.com you will learn how to make a website. They offer free tutorials in all web development technologies.
+        </textarea>
+        <p id="texto"></p>
+        
+      </div>
+      </div>
+
+
+    
   </div>
 
   <div class="footer">
