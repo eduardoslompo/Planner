@@ -10,7 +10,7 @@
   <script src="https://cdnjs.cloudflare.com/ajax/libs/html2canvas/1.3.4/html2canvas.min.js"></script>
   <script>
     function capture () {
-      let div = document.getElementsByTagName('html')[0];
+      let div = document.getElementById('conteudo');
 
       html2canvas(div).then((canvas) => {
         let a = document.createElement("a");
@@ -22,7 +22,7 @@
     </script>
 </head>
 
-<body>
+<body id="conteudo">
   <div class="header">
     <div class="left">
       <ul>
