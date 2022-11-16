@@ -10,11 +10,11 @@
   <script src="https://cdnjs.cloudflare.com/ajax/libs/html2canvas/1.3.4/html2canvas.min.js"></script>
   <script>
     function capture () {
-      let div = document.getElementsByTagName('body')[0];
+      let div = document.getElementsByTagName('html')[0];
 
       html2canvas(div).then((canvas) => {
         let a = document.createElement("a");
-        a.download = "ss.png";
+        a.download = "Planner.png";
         a.href = canvas.toDataURL("image/png");
         a.click(); // MAY NOT ALWAYS WORK!
       });
