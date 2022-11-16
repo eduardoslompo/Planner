@@ -104,6 +104,8 @@ button {
   margin: 2px;
   width: 200px;
   height: 330px;
+  background: url(lines.png) repeat-y;
+
 }
 
 textarea {
