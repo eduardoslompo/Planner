@@ -5,108 +5,95 @@
   <meta charset="UTF-8" />
   <meta http-equiv="X-UA-Compatible" content="IE=edge" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <link rel="stylesheet" href="style.css" />
+  <link rel="icon" type="image/png" sizes="32x32" href="assets/imgs/favico.png">
+  <link rel="stylesheet" href="assets/css/style.css" />
   <title>Seu Planner</title>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/html2canvas/1.3.4/html2canvas.min.js"></script>
-  <script>
-    function capture() {
-      let div = document.getElementById('conteudo');
+  <script src="assets/js/main.js"></script>
 
-      html2canvas(div).then((canvas) => {
-        let a = document.createElement("a");
-        a.download = "Planner.png";
-        a.href = canvas.toDataURL("image/png");
-        a.click();
-      });
-    }
-    
-    function funcaoTexto() {
-      //Substituir a textarea por uma variavel com o seu conteúdo
-      var x = document.getElementById("areatexto").value;
-      document.getElementById("texto").innerHTML = x;
-      //Trocar background do texto
-      document.getElementById('texto').id = 'texto2';
-      //Remover a textarea do DOM
-      const b = document.getElementById("areatexto");
-      b.parentNode.removeChild(b);
-    }
-    
-    const a = document.getElementById("botao");
-    </script>
 </head>
 
 <body id="conteudo">
   <div class="header">
-    <div class="left">
-      <ul>
-        <li><a href="#">ONE</a></li>
-        <li><a href="#">TWO</a></li>
-        <li><a href="#">THREE</a></li>
-      </ul>
-    </div>
-    <div class="right">
-      <button class="notifications">1 New</button>
-
-      <div class="icon"></div>
-    </div>
+    <div class="icon"><img src="assets/imgs/planning.png"></div>
+    <h1>Seu Planner</h1>
   </div>
 
   <div class="content">
     <div class="container">
       <div class="card">
         <h3>Segunda</h3>
-        <textarea id="areatexto" rows="4" cols="25">
-            At w3schools.com you will learn how to make a website. They offer free tutorials in all web development technologies.
-        </textarea>
+        <textarea id="areatexto" maxlength="150" rows="4" cols="25"></textarea>
         <p id="texto"></p>
-        
+
       </div>
 
       <div class="card">
-        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Voluptatum
-        deleniti a impedit nisi pariatur maiores cum suscipit aspernatur
-        ipsam. Obcaecati, rerum sed. Ullam excepturi voluptate culpa, et
-        tenetur modi soluta?
+        <h3>Terça</h3>
+        <textarea id="areatexto" maxlength="150" rows="4" cols="25"></textarea>
+
+        <p id="texto"></p>
       </div>
       <div class="card">
-        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Voluptatum
-        deleniti a impedit nisi pariatur maiores cum suscipit aspernatur
-        ipsam. Obcaecati, rerum sed. Ullam excepturi voluptate culpa, et
-        tenetur modi soluta?
+        <h3>Quarta</h3>
+        <textarea id="areatexto" maxlength="150" rows="4" cols="25"></textarea>
+
+        <p id="texto"></p>
       </div>
       <div class="card">
-        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Voluptatum
-        deleniti a impedit nisi pariatur maiores cum suscipit aspernatur
-        ipsam. Obcaecati, rerum sed. Ullam excepturi voluptate culpa, et
-        tenetur modi soluta?
+        <h3>Quinta</h3>
+        <textarea id="areatexto" maxlength="150" rows="4" cols="25"></textarea>
+
+        <p id="texto"></p>
       </div>
       <div class="card">
-        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Voluptatum
-        deleniti a impedit nisi pariatur maiores cum suscipit aspernatur
-        ipsam. Obcaecati, rerum sed. Ullam excepturi voluptate culpa, et
-        tenetur modi soluta?
+        <h3>Sexta</h3>
+        <textarea id="areatexto" maxlength="150" rows="4" cols="25"></textarea>
+
+        <p id="texto"></p>
       </div>
       <div class="card">
-        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Voluptatum
-        deleniti a impedit nisi pariatur maiores cum suscipit aspernatur
-        ipsam. Obcaecati, rerum sed. Ullam excepturi voluptate culpa, et
-        tenetur modi soluta?
+        <h3>Sábado e Domingo</h3>
+        <textarea id="areatexto" maxlength="150" rows="4" cols="25"></textarea>
+
+        <p id="texto"></p>
       </div>
+
+      <div class="card2">
+        <h3>essa semana não posso deixar de...</h3>
+        <textarea id="areatexto2" maxlength="87" rows="4" cols="25"></textarea>
+        <p id="texto3"></p>
+      </div>
+
+      <div class="card2">
+        <h3>não é prioridade...</h3>
+        <textarea id="areatexto2" maxlength="87" rows="4" cols="25"></textarea>
+
+        <p id="texto3"></p>
+      </div>
+
+      <div class="card2">
+        <h3>missão da semana</h3>
+        <textarea id="areatexto2" maxlength="87" rows="4" cols="25"></textarea>
+
+        <p id="texto3"></p>
+      </div>
+
+      <div class="card2">
+        <h3>fica para semana que vem</h3>
+        <textarea id="areatexto2" maxlength="87" rows="4" cols="25"></textarea>
+
+        <p id="texto3"></p>
+      </div>
+
     </div>
 
-    <div class="container">
-      <div class="card">
-        <h3>Segunda</h3>
-        <textarea id="areatexto" rows="4" cols="25">
-            At w3schools.com you will learn how to make a website. They offer free tutorials in all web development technologies.
-        </textarea>
-        <p id="texto"></p>
-        
-      </div>
-      </div>
+
+  </div>
+  </div>
 
 
-    
+
   </div>
 
   <div class="footer">
@@ -115,8 +102,6 @@
     </div>
 
     <div class="right">
-      <a href="#">SIX</a>
-      <a href="#">SEVEN</a>
       <input type="button" value="Salvar" onclick="capture()" />
     </div>
   </div>
