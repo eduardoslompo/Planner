@@ -14,7 +14,7 @@ function capture(){
   }
   
   $(document).ready(function(){
-    var element = $("#htmlContent");
+    var element = $("#conteudo");
   
     $("#download").on('click', function(){
   
