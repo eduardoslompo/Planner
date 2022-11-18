@@ -81,12 +81,15 @@ img {
   left: 0;
 }
 
-button {
-  border: none;
+.button {
+  height: 1px;
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  font-size: 18px;
   border-radius: 8px;
-  color: rgb(0, 119, 255);
-  padding: 8px 16px;
   background: white;
+  border: solid 1px grey;
 }
 
 .content {
