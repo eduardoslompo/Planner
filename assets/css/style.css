@@ -93,6 +93,10 @@ img {
   cursor: context-menu;
 }
 
+.button:hover{
+  background: #68d8d6;
+}
+
 .content {
   flex: 1;
   display: flex;
