@@ -1,10 +1,16 @@
 ## :calendar: _Planner App built in JavaScript - CONSTRUCTION_ :calendar:
 
+
+
 ## :clipboard: User Stories
 
 - [x] New style
 - [x] New function to save planner
 - [ ] Responsive
+
+## :rocket: Deploy
+
+[Seu Planner](https://seuplanner.netlify.app/)
 
 ## :memo: Getting started
 
