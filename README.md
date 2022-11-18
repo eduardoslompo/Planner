@@ -4,7 +4,7 @@
 
 - [x] New style
 - [x] New function to save planner
-- [] Responsive
+- [ ] Responsive
 
 ## :memo: Getting started
 
