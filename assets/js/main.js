@@ -1,10 +1,10 @@
-document.querySelector('button').addEventListener('click', function() {
+function capture(){
     html2canvas(document.querySelector('#conteudo'), {
-        onrendered: function(canvas) {
-          return Canvas2Image.saveAsPNG(canvas);
-        }
-    });
+      onrendered: function(canvas) {
+        return Canvas2Image.saveAsPNG(canvas);
+      }
   });
+  }
   
   function funcaoTexto() {
       for (let i = 0; i < 7; i++) {
