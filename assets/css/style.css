@@ -90,6 +90,7 @@ img {
   border-radius: 8px;
   background: white;
   border: solid 1px grey;
+  cursor: default;
 }
 
 .content {
