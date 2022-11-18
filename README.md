@@ -1,6 +1,6 @@
 ## :calendar: _Planner App built in JavaScript - CONSTRUCTION_ :calendar:
 
-![SeuPlanner](https://github.com/eduardoslompo/Planner/blob/main/assets/imgs/Planner.png?raw=true)
+![Seu Planner](https://github.com/eduardoslompo/Planner/blob/main/assets/imgs/Planner.png?raw=true)
 
 ## :clipboard: User Stories
 
