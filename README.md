@@ -2,9 +2,9 @@
 
 ## :clipboard: User Stories
 
-[x] New style
-[x] New function to save planner
-[] Responsive
+- [x] New style
+- [x] New function to save planner
+- [] Responsive
 
 ## :memo: Getting started
 
