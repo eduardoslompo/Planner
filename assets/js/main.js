@@ -1,34 +1,10 @@
-// function capture() {
-//     let div = document.getElementById('conteudo');
-
-//     html2canvas(div).then((canvas) => {
-//         let a = document.createElement("a");
-//         a.download = "Planner.png";
-//         a.href = canvas.toDataURL("image/png");
-//         a.click();
-//     });
-// }
-
-function capture(){
-    $("#download").click();
-  }
-  
-  $(document).ready(function(){
-    var element = $("#conteudo");
-  
-    $("#download").on('click', function(){
-  
-      html2canvas(element, {
+document.querySelector('button').addEventListener('click', function() {
+    html2canvas(document.querySelector('#conteudo'), {
         onrendered: function(canvas) {
-          var imageData = canvas.toDataURL("image/jpg");
-          var newData = imageData.replace(/^data:image\/jpg/, "data:application/octet-stream");
-          $("#download").attr("download", "image.jpg").attr("href", newData);
+          return Canvas2Image.saveAsPNG(canvas);
         }
-      });
-  
     });
   });
-  
   
   function funcaoTexto() {
       for (let i = 0; i < 7; i++) {
