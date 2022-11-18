@@ -1,6 +1,4 @@
-function capture(){
-    funcaoTexto();
-    
+function capture(){  
     html2canvas(document.querySelector('#conteudo'), {
       onrendered: function(canvas) {
         return Canvas2Image.saveAsPNG(canvas);
