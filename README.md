@@ -7,6 +7,8 @@
 - [x] New style
 - [x] New function to save planner
 - [ ] Responsive
+- [ ] Night mode
+- [ ] English mode
 
 ## :rocket: Deploy
 
