@@ -196,6 +196,18 @@ textarea {
   font-family: 'Handlee';
 }
 
+#areatexto {
+  background: url(../imgs/lines.png) repeat-y;
+  width: 180px;
+  height: 90px;
+  font: normal 20px verdana;
+  line-height: 25px;
+  outline: none;
+  resize: none;
+  border: none;
+  font-family: 'Handlee';
+}
+
 #areatexto2 {
   background: url(../imgs/lines.png) repeat-y;
   width: 280px;
