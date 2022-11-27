@@ -24,7 +24,7 @@ function funcaoTexto() {
   for (let i = 0; i < 7; i++) {
     //Substituir a textarea por uma variavel com o seu conteúdo
     //let x = document.getElementById('areatexto').value;
-    document.getElementById('texto').innerHTML = x;
+    document.getElementById('texto').textContent = x;
 
     //Trocar background do texto
     document.getElementById('texto').id = 'texto2';
@@ -34,7 +34,7 @@ function funcaoTexto() {
 
     //container 2
     //let y = document.getElementById('areatexto2').value;
-    document.getElementById('texto3').innerHTML = y;
+    document.getElementById('texto3').textContent = y;
 
     document.getElementById('texto3').id = 'texto4';
 
