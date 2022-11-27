@@ -81,7 +81,15 @@ img {
 }
 
 .button:hover {
-  background: #b5bbbb;
+  background: #68d8d6;
+}
+
+.hovertext {
+  content: attr(data-hover);
+  background-color: black;
+  color: #fff;
+  border-radius: 5px;
+  padding: 5px;
 }
 
 .content {
