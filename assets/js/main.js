@@ -1,5 +1,5 @@
 function capture() {
-  html2canvas(document.body, {
+  html2canvas(document.getElementById('conteudo'), {
     onrendered: function (canvas) {
       var image = canvas
         .toDataURL('image/png')
