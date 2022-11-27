@@ -37,8 +37,6 @@ function funcaoTexto() {
 
     const c = document.getElementById('areatexto2');
     c.parentNode.removeChild(c);
-
-    document.getElementById('botoes').style.display = 'none';
   }
 }
 
@@ -48,5 +46,6 @@ function limpar() {
 
 function callFunctions() {
   funcaoTexto();
+  document.getElementById('botoes').style.display = 'none';
   capture();
 }
