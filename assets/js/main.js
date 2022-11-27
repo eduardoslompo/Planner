@@ -38,12 +38,12 @@ function funcaoTexto() {
     const c = document.getElementById('areatexto2');
     c.parentNode.removeChild(c);
 
-    document.getElementsByClassName('footer').style.display = 'none';
+    document.getElementById('botoes').style.display = 'none';
   }
 }
 
 function limpar() {
-  window.location.refresh();
+  window.location.reload();
 }
 
 function callFunctions() {
