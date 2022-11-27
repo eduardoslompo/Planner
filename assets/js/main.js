@@ -54,8 +54,4 @@ function callFunctions() {
 }
 
 let run = document.getElementById('rodar');
-run.addEventListener('click', () => {
-  funcaoTexto();
-  sumirBotoes();
-  capture();
-});
+run.addEventListener('click', funcaoTexto());
