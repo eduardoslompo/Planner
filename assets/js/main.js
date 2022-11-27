@@ -44,12 +44,11 @@ function limpar() {
   window.location.reload();
 }
 
-function sumirBotoes(){
+function sumirBotoes() {
   document.getElementById('botoes').style.display = 'none';
 }
 
 function callFunctions() {
   funcaoTexto();
-  sumirBotoes();
   capture();
 }
