@@ -18,23 +18,33 @@ function capture() {
 }
 
 function funcaoTexto() {
-  for (let i = 0; i < 7; i++) {
-    //Substituir a textarea por uma variavel com o seu conteúdo
-    let x = document.getElementById('areatexto').value ? document.getElementById('texto').innerHTML = x : '';
+  let x = document.getElementById('areatexto').value;
+  let y = document.getElementById('areatexto2').value;
 
-    //Trocar background do texto
-    document.getElementById('texto').id = 'texto2';
-    //Remover a textarea do DOM
-    let b = document.getElementById('areatexto');
-    b.parentNode.removeChild(b);
+  if (x || y === '') {
+    x = '';
+    y = '';
+  } else {
+    for (let i = 0; i < 7; i++) {
+      //Substituir a textarea por uma variavel com o seu conteúdo
+      //let x = document.getElementById('areatexto').value;
+      document.getElementById('texto').innerHTML = x;
 
-    //container 2
-    let y = document.getElementById('areatexto2').value ? document.getElementById('texto3').innerHTML = y : '';
-  
-    document.getElementById('texto3').id = 'texto4';
+      //Trocar background do texto
+      document.getElementById('texto').id = 'texto2';
+      //Remover a textarea do DOM
+      let b = document.getElementById('areatexto');
+      b.parentNode.removeChild(b);
 
-    const c = document.getElementById('areatexto2');
-    c.parentNode.removeChild(c);
+      //container 2
+      let y = document.getElementById('areatexto2').value;
+      document.getElementById('texto3').innerHTML = y;
+
+      document.getElementById('texto3').id = 'texto4';
+
+      const c = document.getElementById('areatexto2');
+      c.parentNode.removeChild(c);
+    }
   }
 }
 
