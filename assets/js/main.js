@@ -44,8 +44,12 @@ function limpar() {
   window.location.reload();
 }
 
+function sumirBotoes(){
+  document.getElementById('botoes').style.display = 'none';
+}
+
 function callFunctions() {
   funcaoTexto();
-  document.getElementById('botoes').style.display = 'none';
+  sumirBotoes();
   capture();
 }
