@@ -49,6 +49,9 @@ function sumirBotoes() {
 }
 
 function callFunctions() {
-  funcaoTexto();
-  setTimeout(capture(), 2000);
+  sumirBotoes();
+  capture();
 }
+
+let rodar = document.getElementById('rodar');
+rodar.addEventListener('click', callFunctions());
