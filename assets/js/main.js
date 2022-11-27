@@ -20,7 +20,7 @@ function capture() {
 function funcaoTexto() {
   for (let i = 0; i < 7; i++) {
     //Substituir a textarea por uma variavel com o seu conteúdo
-    let x = document.getElementById('areatexto').value ? documen.getElementById('texto').innerHTML = x : '';
+    let x = document.getElementById('areatexto').value ? document.getElementById('texto').innerHTML = x : '';
 
     //Trocar background do texto
     document.getElementById('texto').id = 'texto2';
