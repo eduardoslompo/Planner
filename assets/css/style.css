@@ -82,6 +82,8 @@ img {
 
 .button:hover {
   background: #68d8d6;
+  color: white;
+  content: "Antes clique em 'Salvar'" !important;
 }
 
 .content {
