@@ -33,7 +33,7 @@ function funcaoTexto() {
     b.parentNode.removeChild(b);
 
     //container 2
-    let y = document.getElementById('areatexto2').value;
+    //let y = document.getElementById('areatexto2').value;
     document.getElementById('texto3').innerHTML = y;
 
     document.getElementById('texto3').id = 'texto4';
