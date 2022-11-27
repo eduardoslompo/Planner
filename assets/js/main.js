@@ -52,6 +52,3 @@ function callFunctions() {
   sumirBotoes();
   capture();
 }
-
-let rodar = document.getElementById('rodar');
-rodar.addEventListener('click', callFunctions());
