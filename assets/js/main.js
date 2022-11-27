@@ -37,7 +37,13 @@ function funcaoTexto() {
 
     const c = document.getElementById('areatexto2');
     c.parentNode.removeChild(c);
+
+    document.getElementById('botoes').style.display = 'none';
   }
+}
+
+function limpar() {
+  window.location.refresh();
 }
 
 function callFunctions(){
