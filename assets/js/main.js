@@ -21,11 +21,11 @@ function funcaoTexto() {
   let x = document.getElementById('areatexto').value;
   let y = document.getElementById('areatexto2').value;
 
-  if (x || y === '') {
-    x = '';
-    y = '';
-  } else {
-    for (let i = 0; i < 7; i++) {
+  for (let i = 0; i < 7; i++) {
+    if (x || y === '') {
+      x = '';
+      y = '';
+    } else {
       //Substituir a textarea por uma variavel com o seu conteúdo
       //let x = document.getElementById('areatexto').value;
       document.getElementById('texto').innerHTML = x;
