@@ -138,7 +138,7 @@ img {
   background: url(../imgs/lines.png) repeat-y;
   width: 180px;
   height: 250px;
-  font: italic 20px verdana;
+  font: normal 20px verdana;
   line-height: 25px;
   padding: 2px 10px;
   outline: none;
