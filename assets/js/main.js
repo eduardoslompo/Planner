@@ -50,5 +50,5 @@ function sumirBotoes() {
 
 function callFunctions() {
   funcaoTexto();
-  capture();
+  setTimeout(capture(), 2000);
 }

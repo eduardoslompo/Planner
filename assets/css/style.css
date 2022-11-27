@@ -152,7 +152,7 @@ img {
 
 #texto2 {
   background: url(../imgs/lines.png) repeat-y;
-  width: 180px;
+  width: 20px;
   height: 250px;
   font: italic 20px verdana;
   line-height: 25px;
@@ -161,6 +161,7 @@ img {
   resize: none;
   border: none;
   font-family: 'Handlee';
+  word-wrap: break-word;
 }
 
 #texto3 {
@@ -180,6 +181,7 @@ img {
   resize: none;
   border: none;
   font-family: 'Handlee';
+  word-wrap: break-word;
 }
 
 textarea {
