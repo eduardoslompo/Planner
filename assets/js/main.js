@@ -43,12 +43,3 @@ function funcaoTexto() {
 function limpar() {
   window.location.reload();
 }
-
-function sumirBotoes() {
-  document.getElementById('botoes').style.display = 'none';
-}
-
-function callFunctions() {
-  sumirBotoes();
-  capture();
-}
