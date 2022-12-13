@@ -135,12 +135,14 @@ img {
 }
 
 #texto {
+  white-space: pre;
   outline: none;
   resize: none;
   border: none;
 }
 
 #texto2 {
+  white-space: pre;
   background: url(../imgs/lines.png) repeat-y;
   width: 180px;
   height: 250px;
@@ -155,12 +157,14 @@ img {
 }
 
 #texto3 {
+  white-space: pre;
   outline: none;
   resize: none;
   border: none;
 }
 
 #texto4 {
+  white-space: pre;
   background: url(../imgs/lines.png) repeat-y;
   width: 280px;
   height: 90px;
@@ -188,6 +192,7 @@ textarea {
 }
 
 #areatexto2 {
+  white-space: pre;
   background: url(../imgs/lines.png) repeat-y;
   width: 280px;
   height: 90px;
